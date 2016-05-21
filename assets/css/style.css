@@ -1,0 +1,53 @@
+button{
+	margin: 5px;
+	color:transparent;
+}
+
+div {
+	margin-bottom: 10px;
+}
+
+html {
+	background: url("../images/woods2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+
+body{
+	background-color: transparent;
+	color: white;
+}
+
+.jumbotron{
+	background-color:rgba(0, 0, 0, 0.75);
+}
+
+.btn-default{
+	background-color:rgba(255, 255, 255, 0.85);
+}
+
+.btn-success{
+	background-color:rgba(92, 184, 92, 0.85);
+}
+
+.btn-danger{
+	background-color:rgba(217, 83, 79, 0.85);
+}
+.btn-warning{
+	background-color:rgba(240, 173, 78, 0.85);
+}
+
+h2{
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#playerHit{
+	color:rgba(92, 184, 92, 1);
+}
+
+#enemyHit{
+	color:rgba(217, 83, 79, 1);
+}

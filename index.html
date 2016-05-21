@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RPG Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- Jumbotron for Title -->
+	<div class="jumbotron">
+		<img class="img-responsive center-block" src="assets/images/startrekgamelogo.png">
+	</div>
+
+	<div class="container">
+
+	    <div class="row">
+
+	        <div class="col-lg-12 text-center" id="startArea">
+	        	<h2>Select your character</h2>
+	        </div>
+	        <!--<div class="col-lg-12" id="playerArea"></div>-->
+	        <div class="col-lg-12" id="defenderArea"></div>
+	        <div class="col-lg-4 text-center" id="playerArea"></div>
+	        <div class="col-lg-4 text-center">
+	        	<button class="btn btn-info" id="attack"><h3>Attack</h3></button>
+	        	<h2 id="playerHit"></h2>
+	        	<h2 id="enemyHit"></h2>
+	        </div>
+	        <div class="col-lg-4 text-center" id="enemyArea"></div>
+	        <!--<div class="col-lg-12" id="attackResults">-->
+	        </div>
+	        <div class="col-lg-6 text-center" id="wins"></div>
+	        <div class="col-lg-6 text-center" id="losses"></div>
+	        <div class="col-lg-12">
+	        	<button class="btn btn-default btn-block" id="reset"><h3>Reset</h3></button>
+	        </div>
+
+
+	    </div>
+	</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
